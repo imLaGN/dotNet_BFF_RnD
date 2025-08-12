@@ -1,0 +1,99 @@
+## Based on the official GitHub .gitignore templates for Visual Studio and .NET:
+## https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
+## https://github.com/github/gitignore/blob/main/Dotnet.gitignore
+##
+## This version has been customized to better fit the needs of this project.
+## It includes additional exclusions and streamlining for modern .NET and Visual Studio development.
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific folders
+.vscode/
+.vs/
+_ReSharper.Caches/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# NuGet Packages
+*.nupkg
+# NuGet Symbol Packages
+*.snupkg
+
+# Others
+~$*
+*~
+CodeCoverage/
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+.env
+*.bak
+*.swp
+*.tmp
+*.tmp.*
+
+# MSBuild Binary and Structured Log
+*.binlog
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Rider
+.idea/
+
+# Visual Studio database files
+*.VC.db
+*.VC.VC.opendb
+
+# CMake
+CMakeSettings.json
+
+# Crash dumps
+*.dmp
+mono_crash.*
+
+# Azure publish settings
+PublishProfiles/
+
+# macOS
+.DS_Store
+
+# xUnit test results
+TestResults/
+
+# Folder config file
+Desktop.ini
